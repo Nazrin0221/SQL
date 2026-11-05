@@ -51,6 +51,6 @@ WHERE DEPARTMENT_ID = 80;
 
 SELECT FIRST_NAME AS "AD", SALARY FROM HR.EMPLOYEES
 WHERE FIRST_NAME LIKE 'A%' AND COMMISSION_PCT IS NULL;
---WHERE hissəsində SELECT-də verilən Aliasdan istifade etmək olmaz.
---Metn qoşa dırnaqla deyil, tek dırnaqla yazilir.
+--WHERE hissəsində SELECT-də verilən Aliasdan istifadə etmək olmaz.
+--Mətn qoşa dırnaqla deyil, tek dırnaqla yazılır.
 --NULL olduğunu yoxlamaq üçün = deyil, IS NULL istifadə olunur.
